@@ -6,3 +6,22 @@
   font-style: normal;
   font-display: swap;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b1b1b;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: 120vh;
+  width: 85%;
+  background-color: #eee;
+  display: flex;
+}
