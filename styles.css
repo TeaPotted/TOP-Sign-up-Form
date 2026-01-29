@@ -86,3 +86,52 @@ body {
 .form-container header > h2 {
   margin-bottom: 25px;
 }
+
+form {
+  background-color: white;
+  font-family: sans-serif;
+  padding: 20px 85px 20px 35px;
+  box-shadow: 0 7px 2px -2px lightgray;
+}
+
+form > h2 {
+  color: rgb(48, 47, 47);
+  font-size: 1.2em;
+}
+
+.form-row {
+  display: flex;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px 0 0;
+}
+
+.input-container:nth-child(even) {
+  margin-right: none;
+}
+
+.input-container label {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.input-container input {
+  padding: 5px 10px;
+  width: 250px;
+  font-size: 13px;
+  border: 1px solid #E5E7EB;
+  border-radius: 3px;
+}
+
+input:focus {
+  outline: none; 
+  border: 1px solid blue;
+  box-shadow: 5px 5px 5px -2px rgba(0,0,0,0.2);
+}
+
+input:invalid {
+  border: 1px solid red;
+}
